@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class RockPaperScissors {
@@ -25,6 +26,25 @@ public class RockPaperScissors {
             return;
         }
 
+        Random random = new Random();
+        int computerRandomNumber = random.nextInt(4);
+
+        String computerMove = "";
+
+        switch (computerRandomNumber) {
+
+            case 1:
+                computerMove = rock;
+                break;
+            case 2:
+                computerMove = paper;
+                break;
+            case 3:
+                computerMove = scissors;
+                break;
+        }
+
+        System.out.printf("The computer choice is %s.%n", computerMove);
 
 
 
