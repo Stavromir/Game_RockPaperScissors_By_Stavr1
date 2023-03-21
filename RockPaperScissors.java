@@ -9,22 +9,31 @@ public class RockPaperScissors {
         final String paper = "Paper";
         final String scissors = "Scissors";
 
-        System.out.println("Chose [R]ock, [P]aper, [S]cissors: ");
+        System.out.println("Please make you decision from the following options.");
+        System.out.print("Chose [R]ock, [P]aper or [S]cissors: ");
 
         String input = scanner.nextLine();
 
         String playerMove = "";
 
-        if (input.equals("r") || input.equals("R") || input.equals("rock") || input.equals("Rock")) {
-            playerMove = rock;
-        } else if (input.equals("p") || input.equals("P") || input.equals("paper") || input.equals("Paper")) {
-            playerMove = paper;
-        } else if (input.equals("s") || input.equals("S") || input.equals("scissors") || input.equals("Scissors")) {
-            playerMove = scissors;
-        } else {
-            System.out.println("Invalid input. Please try again...");
-            return;
+        while (true) {
+
+            if (input.equals("r") || input.equals("R") || input.equals("rock") || input.equals("Rock")) {
+                playerMove = rock;
+                break;
+            } else if (input.equals("p") || input.equals("P") || input.equals("paper") || input.equals("Paper")) {
+                playerMove = paper;
+                break;
+            } else if (input.equals("s") || input.equals("S") || input.equals("scissors") || input.equals("Scissors")) {
+                playerMove = scissors;
+                break;
+            } else {
+                System.out.println("Invalid input. Please try again...");
+                System.out.print("New input: ");
+                input = scanner.nextLine();
+            }
         }
+
 
         Random random = new Random();
         int computerRandomNumber = random.nextInt(4);
