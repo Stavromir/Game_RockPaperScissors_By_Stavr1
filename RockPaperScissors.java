@@ -46,7 +46,20 @@ public class RockPaperScissors {
 
         System.out.printf("The computer choice is %s.%n", computerMove);
 
+        if (playerMove.equals(rock) && computerMove.equals(scissors) ||
+                playerMove.equals(paper) && computerMove.equals(rock) ||
+                playerMove.equals(scissors) && computerMove.equals(paper)) {
 
+            System.out.println("You win!");
+
+        } else if (playerMove.equals(rock) && computerMove.equals(paper) ||
+                playerMove.equals(paper) && computerMove.equals(scissors) ||
+                playerMove.equals(scissors) && computerMove.equals(rock)) {
+
+            System.out.println("You lose!");
+        } else {
+            System.out.println("This game was a draw.");
+        }
 
     }
 }
