@@ -8,8 +8,9 @@ public class RockPaperScissors {
         final String rock = "Rock";
         final String paper = "Paper";
         final String scissors = "Scissors";
+        boolean newGame = true;
 
-        while (true) {
+        while (newGame) {
 
             System.out.println("Please make you decision from the following options.");
             System.out.print("Chose [R]ock, [P]aper or [S]cissors: ");
@@ -75,7 +76,6 @@ public class RockPaperScissors {
             System.out.println("Do you want to play again?");
             System.out.println("[Y]es or [N]o");
             String playAgain = scanner.nextLine();
-            boolean newGame = true;
 
             while (true) {
 
@@ -93,11 +93,6 @@ public class RockPaperScissors {
                     playAgain = scanner.nextLine();
                 }
             }
-
-            if (!newGame) {
-                break;
-            }
-
         }
     }
 }
