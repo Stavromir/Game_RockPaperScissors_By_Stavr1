@@ -9,6 +9,8 @@ public class RockPaperScissors {
         final String paper = "Paper";
         final String scissors = "Scissors";
         boolean newGame = true;
+        int countPlayerWins = 0;
+        int countComputerWins = 0;
 
         while (newGame) {
 
@@ -62,16 +64,20 @@ public class RockPaperScissors {
                     playerMove.equals(paper) && computerMove.equals(rock) ||
                     playerMove.equals(scissors) && computerMove.equals(paper)) {
 
+                countPlayerWins++;
                 System.out.println("You win!");
 
             } else if (playerMove.equals(rock) && computerMove.equals(paper) ||
                     playerMove.equals(paper) && computerMove.equals(scissors) ||
                     playerMove.equals(scissors) && computerMove.equals(rock)) {
 
+                countComputerWins++;
                 System.out.println("You lose!");
             } else {
                 System.out.println("This game was a draw.");
             }
+
+            System.out.printf("Player wins: %d vs Computer wins: %d%nR", countPlayerWins, countComputerWins);
 
             System.out.println("Do you want to play again?");
             System.out.println("[Y]es or [N]o");
