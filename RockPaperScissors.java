@@ -77,7 +77,7 @@ public class RockPaperScissors {
                 System.out.println("This game was a draw.");
             }
 
-            System.out.printf("Player wins: %d vs Computer wins: %d%nR", countPlayerWins, countComputerWins);
+            System.out.printf("Player wins: %d vs Computer wins: %d%n", countPlayerWins, countComputerWins);
 
             System.out.println("Do you want to play again?");
             System.out.println("[Y]es or [N]o");
