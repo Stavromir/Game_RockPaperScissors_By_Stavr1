@@ -91,6 +91,8 @@ public class RockPaperScissors {
                 } else if (playAgain.equals("N") || playAgain.equals("No") || playAgain.equals("no")
                                     || playAgain.equals("n")) {
                     newGame = false;
+                    int countGames = countPlayerWins +countComputerWins;
+                    System.out.printf("Played games: %d%n", countGames);
                     System.out.println("Goodbye!");
                     break;
                 } else {
