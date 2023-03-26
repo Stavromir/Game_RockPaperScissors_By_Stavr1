@@ -11,6 +11,7 @@ public class RockPaperScissors {
         boolean newGame = true;
         int countPlayerWins = 0;
         int countComputerWins = 0;
+        String computerMove = "";
 
         while (newGame) {
 
@@ -43,7 +44,6 @@ public class RockPaperScissors {
             Random random = new Random();
             int computerRandomNumber = random.nextInt(4);
 
-            String computerMove = "";
 
             switch (computerRandomNumber) {
 
