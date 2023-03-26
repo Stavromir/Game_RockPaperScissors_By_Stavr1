@@ -53,4 +53,4 @@ On the next line you will see the result of all played games until now and and c
 
 ## :beginner: Live Demo
 
-[Link to live demo] (https://replit.com/@Stavr1/GameRockPaperScissorsByStavr1?v=1)
+[Link to live demo](https://replit.com/@Stavr1/GameRockPaperScissorsByStavr1?v=1)
