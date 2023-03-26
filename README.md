@@ -1,4 +1,4 @@
-# :video_game: Game "Rock - Paper - Scissors" Created By S.Kasapov :video_game:
+# :video_game: Game "Rock - Paper - Scissors" :video_game:
 
 ---
 > Description : This is a simple two-player console game, written on Java language.
