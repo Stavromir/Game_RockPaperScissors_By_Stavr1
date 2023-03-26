@@ -42,9 +42,9 @@ On the next line you will see the result of all played games until now and and c
 
 1. User choice will be taken and stored.
 2. The computer will choose a random number from 1 to 3.
-    * If computer choose number 1, this is equal to Rock.
-    * If computer choose number 2, this is equal to Paper.
-    * If computer choose number 3, this is equal to Scissors.
+    * If computer choose number 1, 2 or 3, this is equal to Rock.
+    * If computer choose number 4, 5 or 6, this is equal to Paper.
+    * If computer choose number 7, 8 or 9, this is equal to Scissors.
 3. The user input will be compared with computer choice.
 4. According to rules one of the players will win.
 5. The winner will be written on the console.

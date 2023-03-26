@@ -36,6 +36,8 @@ On the next line you will see the result of all played games until now and and c
 
 ![img_5.png](img_5.png)
 
+---
+
 ## Algorithm
 
 1. User choice will be taken and stored.
@@ -46,3 +48,9 @@ On the next line you will see the result of all played games until now and and c
 3. The user input will be compared with computer choice.
 4. According to rules one of the players will win.
 5. The winner will be written on the console.
+
+---
+
+## :beginner: Live Demo
+
+[Link to live demo](https://replit.com/@Stavr1/GameRockPaperScissorsByStavr1?v=1)

@@ -42,18 +42,18 @@ public class RockPaperScissors {
 
 
             Random random = new Random();
-            int computerRandomNumber = random.nextInt(4);
+            int computerRandomNumber = random.nextInt(10);
 
 
             switch (computerRandomNumber) {
 
-                case 1:
+                case 1, 2, 3:
                     computerMove = rock;
                     break;
-                case 2:
+                case 4, 5, 6:
                     computerMove = paper;
                     break;
-                case 3:
+                case 7, 8, 9:
                     computerMove = scissors;
                     break;
             }
