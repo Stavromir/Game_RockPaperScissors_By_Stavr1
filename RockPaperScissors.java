@@ -11,7 +11,6 @@ public class RockPaperScissors {
         boolean newGame = true;
         int countPlayerWins = 0;
         int countComputerWins = 0;
-        String computerMove = "";
 
         while (newGame) {
 
@@ -44,18 +43,17 @@ public class RockPaperScissors {
             Random random = new Random();
             int computerRandomNumber = random.nextInt(10);
 
+            String computerMove = "";
 
-            switch (computerRandomNumber) {
+            if (computerRandomNumber >= 1 && computerRandomNumber <= 3) {
 
-                case 1, 2, 3:
-                    computerMove = rock;
-                    break;
-                case 4, 5, 6:
-                    computerMove = paper;
-                    break;
-                case 7, 8, 9:
-                    computerMove = scissors;
-                    break;
+                computerMove = rock;
+            } else if (computerRandomNumber >= 4 && computerRandomNumber <= 6) {
+
+                computerMove = paper;
+            } else if (computerRandomNumber >= 7) {
+
+                computerMove = scissors;
             }
 
             System.out.printf("The computer choice is %s.%n", computerMove);
@@ -86,12 +84,12 @@ public class RockPaperScissors {
             while (true) {
 
                 if (playAgain.equals("Y") || playAgain.equals("Yes") || playAgain.equals("yes")
-                                    || playAgain.equals("y")) {
+                        || playAgain.equals("y")) {
                     break;
                 } else if (playAgain.equals("N") || playAgain.equals("No") || playAgain.equals("no")
-                                    || playAgain.equals("n")) {
+                        || playAgain.equals("n")) {
                     newGame = false;
-                    int countGames = countPlayerWins +countComputerWins;
+                    int countGames = countPlayerWins + countComputerWins;
                     System.out.printf("Played games: %d%n", countGames);
                     System.out.println("Goodbye!");
                     break;
