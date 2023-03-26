@@ -41,7 +41,7 @@ On the next line you will see the result of all played games until now and and c
 ## Algorithm
 
 1. User choice will be taken and stored.
-2. The computer will choose a random number from 1 to 3.
+2. The computer will choose a random number from 1 to 9.
     * If computer choose number 1, 2 or 3, this is equal to Rock.
     * If computer choose number 4, 5 or 6, this is equal to Paper.
     * If computer choose number 7, 8 or 9, this is equal to Scissors.
