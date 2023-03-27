@@ -41,17 +41,17 @@ public class RockPaperScissors {
 
 
             Random random = new Random();
-            int computerRandomNumber = random.nextInt(10);
+            int computerRandomNumber = random.nextInt(100);
 
             String computerMove = "";
 
-            if (computerRandomNumber >= 1 && computerRandomNumber <= 3) {
+            if (computerRandomNumber >= 1 && computerRandomNumber <= 33) {
 
                 computerMove = rock;
-            } else if (computerRandomNumber >= 4 && computerRandomNumber <= 6) {
+            } else if (computerRandomNumber >= 34 && computerRandomNumber <= 66) {
 
                 computerMove = paper;
-            } else if (computerRandomNumber >= 7) {
+            } else if (computerRandomNumber >= 67) {
 
                 computerMove = scissors;
             }
