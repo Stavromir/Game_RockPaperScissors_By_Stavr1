@@ -44,7 +44,7 @@ On the next line you will see the result of all played games until now and and c
 2. The computer will choose a random number from 1 to 9.
     * If computer choose a number from 1 to 33, it will equal to Rock.
     * If computer choose a number from 34 to 66, it will equal to Paper.
-    * If computer choose a number 67 to 99, it will equal to Scissors.
+    * If computer choose a number from 67 to 99, it will equal to Scissors.
 3. The user input will be compared with computer choice.
 4. According to rules one of the players will win.
 5. The winner will be written on the console.
