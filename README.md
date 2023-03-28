@@ -22,7 +22,7 @@ Image Credits : Google
 ## :beginner: Gameplay
 When the game start you will be able to choose from three options displayed on the console.
 
-![img_3.png](img_3.png)
+![img_3.png](PNG/img_3.png)
 
 * Press "R" for Rock
 * Press "P" for Paper
@@ -30,11 +30,11 @@ When the game start you will be able to choose from three options displayed on t
 
 Then you will see the computer`s choice and the result of the current game.
 
-![img_4.png](img_4.png)
+![img_4.png](PNG/img_4.png)
 
 On the next line you will see the result of all played games until now and and choice to play the game again.
 
-![img_5.png](img_5.png)
+![img_5.png](PNG/img_5.png)
 
 ---
 
